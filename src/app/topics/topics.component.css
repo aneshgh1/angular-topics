@@ -1,0 +1,36 @@
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+ul {
+  text-align: left;
+}
+#li1 {
+  list-style: none;
+  background-color: skyblue;
+  font-weight: bold;
+}
+/* li {
+  user-select: none;
+} */
+
+/* width: 100%;
+padding: 20px;
+box-sizing: border-box;
+font-family: arial;
+font-size: 20px;
+cursor: pointer;
+letter-spacing: 1px; */
